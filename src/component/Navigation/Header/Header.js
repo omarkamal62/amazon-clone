@@ -21,9 +21,9 @@ const header = (props) => {
       </div>
 
       <div className={classes.Header__Nav}>
-        <div style={{cursor: 'pointer'}} className={classes.Header__Option} onClick={props.authClicked}>
+        <div className={classes.Header__Option} onClick={props.authClicked}>
           <span className={classes.Header__OptionLineOne}>
-            Hello, {props.userId ? "User" : "Guest"}
+            Hello, {props.userId ? props.userEmail : "Guest"}
           </span>
           <span className={classes.Header__OptionLineTwo}>
             {props.userId ? "Sign Out" : "Sign In"}

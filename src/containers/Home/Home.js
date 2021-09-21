@@ -33,30 +33,30 @@ class Home extends Component {
         rating: 4,
         price: 9.99,
       },
-      // {
-      //   title:
-      //     "Ailun Glass Screen Protector Compatible for iPhone 11/iPhone XR, 6.1 Inch 3 Pack Tempered Glass",
-      //   image:
-      //     "https://m.media-amazon.com/images/I/81MZ5D1wHpL._AC_UL480_FMwebp_QL65_.jpg",
-      //   rating: 3,
-      //   price: 7.98,
-      // },
-      // {
-      //   title:
-      //     "TOZO T6 True Wireless Earbuds Bluetooth Headphones Touch Control with Wireless Charging Case IPX8 Waterproof Stereo Earphones in-Ear Built-in Mic Headset Premium Deep Bass for Sport Black",
-      //   image:
-      //     "https://m.media-amazon.com/images/I/71gtHnQGfQL._AC_UL480_FMwebp_QL65_.jpg",
-      //   rating: 4,
-      //   price: 34.99,
-      // },
-      // {
-      //   title:
-      //     "TOZO T10 Bluetooth 5.0 Wireless Earbuds with Wireless Charging Case IPX8 Waterproof Stereo Headphones in Ear Built in Mic Headset Premium Sound with Deep Bass for Sport Black",
-      //   image:
-      //     "https://m.media-amazon.com/images/I/71kx6Gd-PmL._AC_UL480_FMwebp_QL65_.jpg",
-      //   rating: 3,
-      //   price: 29.99,
-      // },
+      {
+        title:
+          "Ailun Glass Screen Protector Compatible for iPhone 11/iPhone XR, 6.1 Inch 3 Pack Tempered Glass",
+        image:
+          "https://m.media-amazon.com/images/I/81MZ5D1wHpL._AC_UL480_FMwebp_QL65_.jpg",
+        rating: 3,
+        price: 7.98,
+      },
+      {
+        title:
+          "TOZO T6 True Wireless Earbuds Bluetooth Headphones Touch Control with Wireless Charging Case IPX8 Waterproof Stereo Earphones in-Ear Built-in Mic Headset Premium Deep Bass for Sport Black",
+        image:
+          "https://m.media-amazon.com/images/I/71gtHnQGfQL._AC_UL480_FMwebp_QL65_.jpg",
+        rating: 4,
+        price: 34.99,
+      },
+      {
+        title:
+          "TOZO T10 Bluetooth 5.0 Wireless Earbuds with Wireless Charging Case IPX8 Waterproof Stereo Headphones in Ear Built in Mic Headset Premium Sound with Deep Bass for Sport Black",
+        image:
+          "https://m.media-amazon.com/images/I/71kx6Gd-PmL._AC_UL480_FMwebp_QL65_.jpg",
+        rating: 3,
+        price: 29.99,
+      },
     ],
   };
 
