@@ -26,7 +26,7 @@ const subtotal = (props) => {
           );
         }}
       />
-      <button>Proceed to checkout</button>
+      <button onClick={props.clicked}>Proceed to checkout</button>
     </div>
   );
 };

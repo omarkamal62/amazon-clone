@@ -2,10 +2,10 @@ import * as actionTypes from "../actions/actionTypes";
 import { updateObject } from "../utility";
 
 const initialState = {
-  token: null,
-  userId: null,
+  token: localStorage.getItem('token') ? localStorage.getItem('token') : null,
+  userId: localStorage.getItem('userId') ? localStorage.getItem('userId') : null,
   error: null,
-  userEmail: null,
+  userEmail: localStorage.getItem('userEmail') ? localStorage.getItem('userEmail') :  null,
   loading: false,
   authRedirectPath: "/",
 };

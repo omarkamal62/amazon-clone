@@ -11,6 +11,10 @@ class Checkout extends Component {
     this.props.onRemoveFromBasket(item);
   }
 
+  goToPaymentPage = () => {
+    this.props.history.push("/payment");
+  }
+
   render() {
     const basketItems = this.props.basket.map((item) => {
       return (
@@ -64,6 +68,7 @@ class Checkout extends Component {
               <Subtotal
                 price={this.props.price}
                 basketLength={this.props.basket.length}
+                clicked={this.goToPaymentPage}
               />
             </div>
           </div>

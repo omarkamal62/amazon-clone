@@ -19,6 +19,7 @@ class Layout extends Component {
     if (this.props.history.location.pathname !== "/login") {
       header = (
         <Header
+          userEmail={this.props.userEmail}
           authClicked={this.handleAuth}
           userId={this.props.userId}
           basketLength={this.props.basket.length}
@@ -45,6 +46,7 @@ const mapStateToProps = (state) => {
   return {
     basket: state.checkout.basket,
     userId: state.auth.userId,
+    userEmail: state.auth.userEmail
   };
 };
 

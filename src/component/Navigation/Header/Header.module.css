@@ -46,6 +46,11 @@
   margin-left: 10px;
   margin-right: 10px;
   color: white;
+  cursor: pointer;
+}
+
+.Header__Option:hover {
+  text-decoration: underline;
 }
 
 .Header__OptionLineOne {
